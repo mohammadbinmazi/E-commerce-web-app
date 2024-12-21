@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ecommerce website</title>
+    <link rel="stylesheet" href="ecommmerce.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>products</h1>
+      <div id="product-list">
+        <!-- product will dynamically act on this html -->
+      </div>
+      <h2>shopping cart</h2>
+      <div class="new-btn">
+        <button id="remove-last-btn">Remove Items</button>
+      </div>
+      <div id="cart-items">
+        <p id="empty-cart">your cart is empty.</p>
+      </div>
+      <div id="cart-total" class="hidden">
+        <p class="total">Total: <span id="total-price">$0.00</span></p>
+        <button id="checkout-btn">Checkout</button>
+      </div>
+    </div>
+
+    <script src="ecommerce.js"></script>
+  </body>
+</html>
